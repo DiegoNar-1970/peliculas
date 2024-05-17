@@ -1,0 +1,23 @@
+npm i standart -D es una dependecia de identacion de javascript
+npm i picocolors es para poner mas bonito la consola de node
+instalar slinter y standart
+npm init @eslint/config esto es para instalar slint
+,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "[javascript]":{
+        "editos.defaultFormtatter":"esbenp.prettier-vscode"
+    },
+    "prettier.singleQuote":true,
+    "editor.codeActisOnsave":{
+        "source.fixAll.eslint":true
+------objetos globales-----------
+os trae informacion del sistema operativo
+procees es para interactuar con el distema operativo 
+console. log(__dirname) ubicacion de actual
+console.log(__filename) ubicacion de actual + eñ fichero de ejecucion
+console. log (module) modular, esto ya lo c 
+console. log (require) importar, ya sabes com const fs=require("node:fs")
+ahora en mjs seria import {fs} from 'node:fs'
+console. log(process) objeto global es para interactural con el sistema operativo 
+-----_--0000--------------------

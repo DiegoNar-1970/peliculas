@@ -1,0 +1,21 @@
+npm init -y
+es para crear el archivo .json 
+
+npm create vite@latest 
+esto es para iniciar el proyecto react 
+
+npm run dev
+esto es para correr el proyecto
+
+investigar de todos los tipos de hooks que hay en react para saber mas de los estados
+
+npx create-react-app (mi-app)-->este es el nombre de la app 
+crea una nueva app de react
+
+es para crear un nuevo componente pero en visual, desde la main
+rafc 
+
+esto es para importar links en react 
+import { Link } from "react-router-dom"
+se debe llamar como Link no link 
+se puede usar link y NavLink

@@ -1,0 +1,42 @@
+ls -al ~/.ssh esto es parqa comprobar si se tienen claves sh 
+se crea un fichero config 
+Host *.github.com
+    AddKeysToAgent yes
+    UseKeychain yes 
+    IdentityFile ~/.ssd/id_rsa
+git branch -m main  es para cambiar el nombre de master a main 
+
+git push -u origin main 
+es para subir a github, origin es desde la carpeta origen y main es el nombre de la rama
+
+git fetch es para mostrarel historial de cambios por si no se puede subir naa a git 
+
+git pull git pull no sirve solo en si, asi que toca poner esto 
+hay que configurar el git config de esta manera para mergear desde
+por predeterminado 
+git config pull.rebase false
+mecanismo por defecto para traer cambios
+git pull origin main 
+trae todos los cambios de el origen o sea trae todo lo de git 
+que no tengamos en la main 
+
+git clone "aqui va el ssh del directorio de git hub"
+touch "name" es para crear ficheros 
+
+gitcracken 
+eJwtjMFqwzAQBf9FZx+KG6mtrqWhLYRCW4jJRUirVSKseMXKbpyE/HtF8O29gZmrsABYyi/1OAgtlGpfnFTongAcuFYG1QaP9ayCDAEkOPkQ7LNoRGb6ix55Ua9LyYxLan8gE+d5o3arXfd96S6+s4d13v689eMnfbx/qcf5db3Z1tRdMeM5Y/UcWkautADdgfXHOOg8uRTB9HhuGK3XxPs6MjVTQdZ4tDE1J+I+JDpVGeccGYuxo9DDlNLt9g/G
+para empezar a usar la metdologia git flow 
+se usa el siguiente comndo
+no es tan facil como solo esscribir esto y ya esta,
+dependiendo de como se descargo git, hay que hacer otra cosa
+prueba con este codigo, si no funciona ya toca volver a buscar
+soluciones 
+brew install git-flow
+
+una vez intalado hay que empezar una serie de pasos para empezar a 
+trabajar con girt flow: primero
+git flow init
+
+esto es para eliminar una carpeta
+rm -rf flow/
+manipulacion de arrays 

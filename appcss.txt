@@ -1,0 +1,221 @@
+provicional
+/* .deslicecard__article{
+width: 100%;
+display: flex;
+flex-direction: column;
+} */
+
+/* .deslicecard__section--img{
+    position: absolute;
+    z-index: 10;
+    width: 100vw;
+    height: 64.6vw;
+    object-fit: cover;
+    object-position: 50% 35%;
+    opacity: 0.4;
+} */
+/* .deslicecard__div--information{
+position: absolute;
+z-index: 20;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} */
+/* .deslicecard__div--title,.des-movie-deslicecard,.info-movie-deslicecard{
+color: #ffffff;
+margin: 20px;
+font-size: 30px;
+} */
+
+banner
+hacer un infiniti scrool
+ header{
+        width: 80%;
+        height: 200px;
+        background-color: rgb(152, 54, 54);
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        height:1050px;
+    }
+    .divMovies{
+        flex-grow: 1;
+    }
+    aside{
+        flex-grow:1;
+        height: 500px;
+
+    }
+    footer{
+        width: 80%;
+        height: 6.25rem;
+    background-color:rgb(20, 106, 20) ;
+    flex-grow: 1;
+    }
+<style type="text/css"
+  /* Tamaño por defecto pantallas (1280-1024) */
+  @media all and (min-width: 1024px) and (max-width: 1280px) { }
+  
+  /* Tamaño tablet horizontal (1024-768) */
+  @media all and (min-width: 768px) and (max-width: 1024px) { }
+  
+  /* Tamaño tablet (768-480) */
+  @media all and (min-width: 480px) and (max-width: 768px) { }
+  
+  /* Tamaño teléfonos (480-menos ) */
+  @media all and (max-width: 480px) { }
+  
+  /*  Orientación: Vertical */
+  @media screen and (orientation:portrait) { }
+  
+  /* Orientación: Horizontal  */
+  @media screen and (orientation:landscape) { }
+  
+  /* iPhone - Orientación: Vertical */
+  @media screen and (max-device-width: 480px) and (orientation:portrait) { } 
+  
+  /* iPhone - Orientación: Horizontal  */
+  @media screen and (max-device-width: 480px) and (orientation:landscape) { }
+  
+  /* iPad - Orientación: Vertical */
+  @media screen and (min-device-width: 481px) and (orientation:portrait) { }
+  
+  /* iPad - Orientación: Horizontal  */
+  @media screen and (min-device-width: 481px) and (orientation:landscape) { }
+</style>>
+botones rojos el home tambien, agrega el link de react 
+
+
+<div className="footer">
+        <div className="derechosReservados">
+            <span>Derechos reservados</span>
+            <span>Copyrhigt@</span>
+            <span>im Student, and am learning, thanks for whatching</span>
+        </div>
+        <div className="redes">
+            <a className="gitHub"href="../src/Media/img/github.png">
+                <i className="fa-brands gitHub " ></i>
+            </a>
+            <a href="../src/Media/img/instagram.jpg">
+                <i className="fa-brands instagram "></i>
+            </a>
+            <a href="../src/Media/img/whatsapp.png">
+                <i className="fa-brands whatssap " ></i>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
+.desliceCard__article{
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* outline: 1px solid red; */
+    justify-content: center;
+    padding: 100px;
+    margin: 20px;
+}
+.deslicecard__section--img{
+    z-index: -1;
+    width: 100%;
+    height: 86.1%;
+    position: absolute;
+    object-fit:cover;
+    object-position: 50% 35%;
+}
+.desliceCard__div--information{
+/* outline: 1px solid red; */
+width: 80vw;
+display: flex;
+flex-direction: column;
+color: white;
+font-size: 22px;
+
+}
+
+.desliceCard__div--title{
+width: 100%;
+padding: 10px;
+margin: 20px;
+font-size: 50px;
+}
+.info-movie-desliceCard{
+    padding: 10px;
+    margin: 20px;
+}
+.des-movie-desliCeCard {
+    padding: 10px;
+    margin: 20px;
+}
+.cardDeslice__div--see{
+    padding: 10px;
+    margin-top: 40px;
+    width: 17em;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+}
+.desliceCard__article{
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* outline: 1px solid red; */
+    justify-content: center;
+    padding: 100px;
+    margin: 20px;
+}
+.deslicecard__section--img{
+    z-index: -1;
+    width: 100%;
+    height: 86.1%;
+    position: absolute;
+    object-fit:cover;
+    object-position: 50% 35%;
+}
+.desliceCard__div--information{
+/* outline: 1px solid red; */
+width: 80vw;
+display: flex;
+flex-direction: column;
+color: white;
+font-size: 22px;
+
+}
+
+.desliceCard__div--title{
+width: 100%;
+padding: 10px;
+margin: 20px;
+font-size: 50px;
+}
+.info-movie-desliceCard{
+    padding: 10px;
+    margin: 20px;
+}
+.des-movie-desliCeCard {
+    padding: 10px;
+    margin: 20px;
+}
+.cardDeslice__div--see{
+    padding: 10px;
+    margin-top: 40px;
+    width: 17em;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+    

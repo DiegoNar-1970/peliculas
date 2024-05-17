@@ -1,0 +1,44 @@
+
+
+
+from tkinter import Menu
+from sympy import *
+from flask import Flask 
+import numpy as np
+import matplotlib.pyplot as plt
+def definidas():
+    fx=input("ingrese la funcion f(x):")
+    x=symbols('x')
+    resultado=integrate(fx,x)
+    print(f"el resultado es {resultado}")
+    plt.ion()
+    plt.plot(resultado)
+def indefinida():
+     fx=input("ingrese la funcion f(x):")
+     x=symbols('x')
+     x1=input("ingrese limite inferior")
+     x2=input("ingrese limite supeior")
+     resultado=integrate(fx,(x,x1,x2))
+     print(f"el resultado es {resultado}")
+
+menu = """
+menu:
+1:Integral Indefinida.
+2:Integral Definida.
+3:Para salir.
+"""
+opcion=0
+while opcion!=3:
+    print(menu)
+    opcion=int(input("Dijite su opcion"))
+    if opcion is 1:
+        definidas()
+    
+    elif opcion is 2:
+        indefinida()
+        
+    elif opcion is 3:
+        print("Gracias y Hasta Luego")
+    
+
+    

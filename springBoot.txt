@@ -1,0 +1,5 @@
+-----------------SPIRNGBOOT-----------------
+commando para ver que puestos se usan 
+netstat -ano | findstr LISTENING | findsrt 8080
+para eliminarlo se escribe 
+taskill -PID 11808 -F
